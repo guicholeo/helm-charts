@@ -271,6 +271,8 @@ monitoring:
   enabled: false
   scrapeInterval: 30s
   labels: {}
+  enableHttp2: true
+  tlsConfig: {}
 
 # -- Pod resource management.
 # This section simplifies resource allocation
